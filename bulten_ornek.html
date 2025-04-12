@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aylık Bülten Örneği</title>
+    <style>
+      body {
+        background: #f5f5f5;
+        font-family: "Roboto", Arial, sans-serif;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        border-bottom: 3px solid #ff6b6b;
+        padding: 30px 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        background: linear-gradient(135deg, #4a6fa5, #245091);
+        color: white;
+      }
+      header h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 42px;
+        margin: 0 0 10px 0;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+      header p {
+        margin: 5px 0;
+        font-size: 18px;
+      }
+      .container {
+        background: #fff;
+        width: 650px;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        border-radius: 8px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .content {
+        padding: 20px 30px;
+      }
+      .post {
+        margin-bottom: 35px;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #eaeaea;
+        transition: transform 0.3s ease;
+      }
+      .post:hover {
+        transform: translateY(-5px);
+      }
+      .post:last-child {
+        border-bottom: none;
+        margin-bottom: 10px;
+      }
+      .post h2 {
+        font-family: "Playfair Display", serif;
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: #245091;
+        font-size: 28px;
+      }
+      .post-meta {
+        color: #777;
+        font-size: 14px;
+        margin-bottom: 15px;
+        background: #f8f9fa;
+        padding: 6px 12px;
+        border-radius: 4px;
+        display: inline-block;
+      }
+      .post-summary {
+        line-height: 1.7;
+        color: #555;
+      }
+      .btn {
+        display: inline-block;
+        background: #ff6b6b;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 500;
+        margin-top: 10px;
+        transition: background 0.3s;
+      }
+      .btn:hover {
+        background: #e74c3c;
+      }
+      .subscriber-details {
+        margin-top: 30px;
+        padding: 15px;
+        background: #f9f9f9;
+        border-radius: 5px;
+      }
+      footer {
+        text-align: center;
+        background: #2d3748;
+        color: #e2e8f0;
+        padding: 30px 15px;
+        border-top: 5px solid #ff6b6b;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <h1>Aylık Bülten</h1>
+        <p>12 Nisan 2023 tarihli bülten</p>
+        <p>Merhaba Değerli Okuyucumuz!</p>
+      </header>
+
+      <div class="content">
+        <div class="post">
+          <h2>Listmonk ile E-posta Kampanyaları Oluşturma</h2>
+          <div class="post-meta">Yayın Tarihi: 10 Nisan 2023 14:30</div>
+          <div class="post-summary">
+            <p>
+              Listmonk, açık kaynaklı ve güçlü bir e-posta pazarlama aracıdır.
+              Bu yazıda Listmonk kurulumu ve kullanımını adım adım anlatıyoruz.
+            </p>
+          </div>
+          <a href="#" class="btn">Devamını Oku</a>
+        </div>
+
+        <div class="post">
+          <h2>Python ile RSS Okuyucu Geliştirme</h2>
+          <div class="post-meta">Yayın Tarihi: 5 Nisan 2023 09:45</div>
+          <div class="post-summary">
+            <p>
+              Python ve feedparser kütüphanesini kullanarak kendi RSS
+              okuyucunuzu nasıl geliştirebileceğinizi anlatan kapsamlı bir
+              rehber.
+            </p>
+          </div>
+          <a href="#" class="btn">Devamını Oku</a>
+        </div>
+
+        <div class="post">
+          <h2>HTML E-posta Şablonları: En İyi Uygulamalar</h2>
+          <div class="post-meta">Yayın Tarihi: 1 Nisan 2023 16:20</div>
+          <div class="post-summary">
+            <p>
+              E-posta istemcileri arasında tutarlı görünen HTML e-posta
+              şablonları oluşturmak için ipuçları ve en iyi uygulamalar.
+            </p>
+          </div>
+          <a href="#" class="btn">Devamını Oku</a>
+        </div>
+
+        <!-- Abone bilgileri örneği -->
+        <div class="subscriber-details">
+          <h3>Sevgili Okuyucumuz,</h3>
+          <p>Bu bülteni ornek@example.com adresine gönderiyoruz.</p>
+          <p>12 Nisan 2023 tarihinde güncellenmiştir.</p>
+
+          <p>
+            <a href="#" style="color: #4a6fa5">Tarayıcıda görüntüle</a> |
+            <a href="#" style="color: #4a6fa5">Aboneliği yönet</a>
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        <div
+          style="
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            margin-bottom: 15px;
+          "
+        >
+          Yücel Toluyağ
+        </div>
+        <p>Yazılım, Teknoloji ve Yaşam Üzerine Paylaşımlar</p>
+
+        <div style="margin: 15px 0">
+          <a
+            href="#"
+            style="
+              display: inline-block;
+              margin: 0 10px;
+              font-size: 18px;
+              color: white;
+            "
+            >Twitter</a
+          >
+          <a
+            href="#"
+            style="
+              display: inline-block;
+              margin: 0 10px;
+              font-size: 18px;
+              color: white;
+            "
+            >GitHub</a
+          >
+          <a
+            href="#"
+            style="
+              display: inline-block;
+              margin: 0 10px;
+              font-size: 18px;
+              color: white;
+            "
+            >LinkedIn</a
+          >
+        </div>
+
+        <p>
+          Bu bülten
+          <a href="#" style="color: #63b3ed; text-decoration: none"
+            >Yücel Toluyağ</a
+          >
+          tarafından gönderilmiştir.
+        </p>
+        <p>
+          <a href="#" style="color: #63b3ed; text-decoration: none"
+            >Abonelikten çıkmak için tıklayın</a
+          >
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>

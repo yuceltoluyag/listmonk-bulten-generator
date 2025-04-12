@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Çıktı dosyaları
+*.html
+*.txt
+!bulten_ornek.html
+!requirements.txt
+!README.md
+
+# Ortam
+venv/
+env/
+ENV/
+
+# Diğer
+.DS_Store
+Thumbs.db
