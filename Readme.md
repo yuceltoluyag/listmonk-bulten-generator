@@ -2,7 +2,7 @@
 
 RSS beslemelerinden Listmonk uyumlu e-posta bültenleri oluşturan Python aracı. Gelişmiş şablonlama, izleme özellikleri ve kişiselleştirilmiş içerik desteği ile profesyonel görünümlü bültenler hazırlayın.
 
-![Listmonk Logo](https://listmonk.app/images/logo.svg)
+![Listmonk Logo](https://listmonk.app/docs/images/favicon.png)
 ![Thunderbird test](https://github.com/yuceltoluyag/listmonk-bulten-generator/blob/main/2025-04-12_06-35.png)
 
 ## Özellikler
